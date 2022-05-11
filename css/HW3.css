@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	max-width: calc(1170px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.tabs {
+	padding: 100px 0 0;
+
+}
+
+.tabs--switcher {
+	list-style: none;
+	font-size: 0;
+}
+
+.tabs--switcher > li {
+	display: inline-block;
+}
+
+.tabs--switcher-button {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 19px;
+	width: 184px;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #c6cbcd;
+	text-transform: uppercase;
+}
+
+.active {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 19px;
+	border-radius: 5px 5px 0px 0px;
+	border: 1px solid #c6cbcd;
+	border-bottom: none;
+	width: 203px;
+}
+
+.tabs--switcher-line {
+	border-bottom: 1px solid #c6cbcd;
+	width: calc(100% - (184px * 2) - 203px);
+	vertical-align: bottom;
+}
+
+.tabs--info {
+    height: 501px;
+	border: 1px solid #c6cbcd;
+	border-top: none;
+	text-align: end;
+}
+
+.tabs--info-about {
+	display: inline-block;
+	max-width: 570px;
+	width: 100%;
+	vertical-align: top;
+	text-align: start;
+	padding: 32px 0 0;
+}
+
+.tabs--info-title {
+    font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 41px;
+	color: #000000;
+}
+
+.tabs--info-description {
+    font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.tabs--info-download {
+	width: 270px;
+	height: 58px;
+    font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #ffffff;
+	background-color: #ec7979;
+	border: none;
+	outline: none;
+	margin: 27px 0 0;
+}
+
+.tabs--info > img {
+	margin: 0 0 0 30px;
+}
+
+
+
+.abaut-info-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.abaut-info-description {
+	margin: 40px auto 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.card-switcher {
+	max-width: calc(1170px + 15px * 2);
+
+	width: 100%;
+	list-style: none;
+	font-size: 0;
+
+}
+.card-switcher > li {
+	max-width: 370px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 71px auto 0px;
+	display: inline-block;
+
+}
+.card-text-titele {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #000000;
+	margin: 34px auto 0;
+
+}
+
+.card-text-description {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+	margin: 42px auto 0;
+	
+}
+
+.card-icon {
+	max-width: 370px;
+	width: 100%;
+	
+	margin: 0 auto;
+
+}
+.content-line {
+	max-width: 170px;
+	height: 0;
+	border: 1px solid #EC7979;
+	margin:  54px auto;
+	
+}
+
+.abaut {
+	padding: 104px 0 0;
+	margin: 0 auto 100px;
+
+}
