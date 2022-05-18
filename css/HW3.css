@@ -179,7 +179,6 @@
 	width: 100%;
 	
 	margin: 0 auto;
-
 }
 .content-line {
 	max-width: 170px;
@@ -192,5 +191,34 @@
 .abaut {
 	padding: 104px 0 0;
 	margin: 0 auto 100px;
+
+}
+
+.pricing {
+	padding: 104px 0 0;
+	margin: 0 auto 100px;
+
+}
+
+.pricing-info-title {    
+	font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.pricing-info-description {	
+	margin: 40px auto 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
 
 }

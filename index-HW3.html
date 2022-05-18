@@ -16,36 +16,87 @@
 
 </head>
 <body>
-    <div></div>
-    <Section class="tabs">
+
+    <section class="tabs">
         <div class="content">
-            <div class="abaut-hader">
-                <button class="abaut-hader-activ">tab 1</button>
-                <button class="abaut-hader-anactiv">tab 2</button>
-                <button class="abaut-hader-anactiv">tab 3</button>
-                <button class="abaut-hader-none"></button> 
-            </div>
-    
-            <div class="abaut-content">
-                <div class="abaut-content-bio">
-                    <p class="abaut-content-taitle">Tabs with soft transitioning effect.</p>
-    
-                    <p class="abaut-content-desaible">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes. <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet.
+            <ul class="tabs--switcher">
+                <li>
+                    <button class="tabs--switcher-button active" type="button">Tab 1</button>
+                </li>
+                <li>
+                    <button class="tabs--switcher-button" type="button">Tab 2</button>
+                </li>
+                <li>
+                    <button class="tabs--switcher-button" type="button">Tab 3</button>
+                </li>
+                <li class="tabs--switcher-line"></li>
+            </ul>
+            <div class="tabs--info">
+                <article class="tabs--info-about">
+                    <h3 class="tabs--info-title">Tabs with soft transitioning effect.</h3>
+                    <p style="margin: 57px 0 1em;" class="tabs--info-description">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit. Aenean
+                        euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et magnis dis parturient montes.
                     </p>
-                    <button class="abaut-content-batton" >Download</button>
-                </div>
-              <img class="abaut-content-img" src="./img/Rectangle%20111.svg" alt="Статуя Свободы"   width: 470px; height: 500px;>
-            </div>  
-            
+                    <p class="tabs--info-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod
+                        bibendum laoreet.</p>
+                    <button type="button" class="tabs--info-download">Download</button>
+                </article>
+                <img src="./img/Rectangle 111.svg" alt="Picture" width="470" height="500">
+            </div>
         </div>
-    
-</Section>  
+    </section>
+    <section class="abaut">
+        <div class="content">
+            <h2 class="abaut-info-title">WHY THIS IS AWESOME</h2>
+            <div class="content-line"></div>   
+            <p class="abaut-info-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>         
+            <div class=" abaut-switcher">
+                <ul class="card-switcher">
+                    <li>
+                        <img class="card-icon" src="./img/about_icon_1.svg" alt="icon-1" width="170" height="170">
+                        <h4 class="card-text-titele">Thoughtful Design</h4>
+                        <h5 class="card-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                    </li>
+                    <li>
+                        <img class="card-icon" src="./img/about_icon_2.svg" alt="icon-2" width="170" height="170">
+                        <h4 class="card-text-titele">Thoughtful Design</h4>
+                        <h5 class="card-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                    </li>
+                    <li>
+                        <img class="card-icon" src="./img/about_icon_3.svg" alt="icon-3" width="170" height="170">
+                        <h4 class="card-text-titele">Thoughtful Design</h4>
+                        <h5 class="card-text-description">Lorem ipsum dolor sit amet, consectetur adipiscing 
+                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</h5>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="content">
+            <h2 class="{pricing-info-title}">pricing options</h2>
+            <div class="content-line"></div>   
+            <p class="pricing-info-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>     
+        
+        </div>
+    </section>
 </body>
 </html>
