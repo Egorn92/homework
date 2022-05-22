@@ -107,6 +107,15 @@
 	margin: 27px 0 0;
 }
 
+.tabs--info-download:hover {
+	background: #AB4949;
+}
+
+.tabs--info-download:active {
+	background: #EC7979;
+	box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .tabs--info > img {
 	margin: 0 0 0 30px;
 }
@@ -121,7 +130,6 @@
     line-height: 42px;
     text-align: center;
     color: #000000;
-
 }
 
 .abaut-info-description {
@@ -216,7 +224,7 @@
 	margin: 59px auto 0;
 	padding: 0 0 50px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .prise-info-description {
@@ -253,13 +261,15 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 60px;
+	line-height: 33px;
 	text-transform: capitalize;
 	text-align: center;
 	text-transform: capitalize;
 	color: #FFFFFF;
 	background: #333333;
 	border: 1px solid #F5F5F5;
+	padding: 15px 0;
+	
 
 }
 
@@ -270,13 +280,15 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 100px;
+	line-height: 42px;
 	text-transform: capitalize;
 	align-items: center;
 	text-align: center;
 	color: #FFFFFF;
 	background: #333333;
 	border: 1px solid #F5F5F5;
+	padding: 29px 0;
+
 }
 .prise-subtitel {
 	max-width: 370px;
@@ -285,11 +297,12 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 50px;
+	line-height: 21px;
 	text-transform: capitalize;
 	align-items: center;
 	text-align: center;
 	color: #86878B;
+	padding: 15px 0;
 }
 
 .aktiv {
@@ -302,7 +315,85 @@
 	border: 1px solid #F5F5F5;
 }
 
-.centr {
+.centr:hover {
 	filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
     margin: 0 15px;
+}
+.customee {
+	max-width: calc(1170px + 15px * 2);
+	width: 100%;
+	margin: 59px auto 0;
+	padding: 0 0 50px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.coment {
+	width: 370px;
+	height: 180px;
+	left: 170px;
+	top: 3820px;
+
+	background: #E2E2E2;
+	border-radius: 10px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #86878B;
+	padding: 38px 24px;
+}
+
+.triangle {
+	position: relative;
+	top: 100%; left: 70px;
+}
+
+.persen {
+	margin: 46px 0 0;
+	display: flex;
+}
+
+.persen-info {
+	margin: 0 0 0 30px;
+}
+
+.persen-info-titel {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+    margin: 11px 0 0;
+	color: #000000;
+
+}
+
+.persen-info-descreptin {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	margin: 25px 0 0;
+	color: #000000;
+}
+.customee-selektion {
+	max-width: 370px;
+	width: 100%;
+	padding: 0 15px;
 }
