@@ -21,13 +21,13 @@
             <div class="header-content">
                 <img class="header-img" src="./img/logo.svg" alt="logo">
                 <nav >
-                    <ul class="header-menu">
-                        <li><a class="header-menu-text">features</a></li>
-                        <li> <a class="header-menu-text">about</a></li>
-                        <li><a class="header-menu-text">pricing</a></li>
-                        <li><a class="header-menu-text">reviews</a></li>
-                        <li> <a class="header-menu-text">contact</a></li>
-                    </ul>
+                    <div class="header-menu">
+                        <a class="header-menu-text">features</a>
+                        <a class="header-menu-text">about</a>
+                        <a class="header-menu-text">pricing</a>
+                        <a class="header-menu-text">reviews</a>
+                        <a class="header-menu-text">contact</a>
+                    </div>
                 </nav>
 
             </div>
@@ -46,13 +46,36 @@
                     <button class="banner-content-button">Download</button>
                 </div>
                 <div class="banner-content-form">
-                    <p class="banner-form-name">Try Your <span  class="banner-name-collor">FREE</span> Trial Today</p>
+                    <p class="banner-form-name">Try Your <strong  class="banner-name-collor">FREE</strong> Trial Today</p>
                     <div class="banner-form-input">
-                        <div class="banner-input">Name</div>
-                        <div class="banner-input">Email</div>
-                        <div class="banner-input">Password</div>
+                        <label for="Name"></label>
+                        <input type="text" name="Name" placeholder="Name" class="banner-input" id="Name">
+                        <label for="Email"></label>
+                        <input type="email"  name="Email" placeholder="Email" class="banner-input" id="Email">
+                        <label for="Password"></label>
+                        <input type="password" name="Password" placeholder="Password" class="banner-input" id="Password">
                     </div>
                     <button class="banner-form-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="social">
+        <div class="content">
+            <div class="social-content">
+                <div class="social-content-text">
+                    <h4 class="social-content-titel">Social Media</h4>
+                    <p class="social-content-deskription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet.</p>
+                </div>
+                <div class="social-content-icon">
+                    <a class="social-icon"><img src="./img/facebook_icon.svg" alt="facebook_icon"></a>
+                    <a class="social-icon"><img src="./img/twitter_icon.svg" alt="twitter_icon"></a>
+                    <a class="social-icon"><img src="./img/linkedin_icon.svg" alt="linkedin_icon"></a>
+                    <a class="social-icon"><img src="./img/pinterest_icon.svg" alt="pinterest_icon"></a>
+                    <a class="social-icon"><img src="./img/instagram_icon.svg" alt="instagram_icon"></a>
+                    <a class="social-icon"><img src="./img/github_icon.svg" alt="github_icon"></a>
+                    <a class="social-icon"><img src="./img/rss_icon.svg" alt="rss_icon"></a>
                 </div>
             </div>
         </div>
@@ -87,7 +110,7 @@
                         bibendum laoreet.</p>
                     <button type="button" class="tabs--info-download">Download</button>
                 </article>
-                <img src="./img/Rectangle 111.svg" alt="Picture" width="470" height="500">
+                <img class="tabs--info-img" src="./img/Rectangle 111.svg" alt="Picture" width="470" height="500">
             </div>
         </div>
     </section>
@@ -256,5 +279,48 @@
             <div class="gradient"></div>
         </div>
     </section>
+    <section class="contact">
+        <div class="content">
+            <div class="contact-content">
+                <div class="contact-tatel">
+                    <h2 class="contact-titel-text">contact us</h2>
+                    <div class="content-line"></div>  
+                    <p class="contact-titel-deskription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <form action="#" class="contact-form">
+                    <div class="content-form-input">
+                        <label for="name"></label>
+                        <input class="contact-input" id="name" type="text" name="Name" placeholder="Name">
+                        <label for="email"></label>
+                        <input class="contact-input" type="email" id="email" name="Email" placeholder="Email">
+                        <label for="password"></label>
+                        <input class="contact-input" type="password" id="password" name="Password" placeholder="Password">
+                    </div>
+                    <div class="content-form-massage">
+                        <textarea class="contact-massage" type="comment" name="Message" placeholder="Message" ></textarea>
+                    </div>
+                </form>
+                <div class="contact-content-button">
+                    <button class="contact-button">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content">
+            <div class="footer-content">
+                <div class="footer-sousheol">
+                    <a class="footer-sousheol-icon"><img src="./img/facebook_icon.svg" alt="facebook_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/twitter_icon.svg" alt="twitter_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/linkedin_icon.svg" alt="linkedin_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/pinterest_icon.svg" alt="pinterest_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/instagram_icon.svg" alt="instagram_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/github_icon.svg" alt="github_icon"></a>
+                    <a class="footer-sousheol-icon"><img src="./img/rss_icon.svg" alt="rss_icon"></a>
+                </div>
+                <p class="footer-content-time">© 2015 Axure Themes</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
