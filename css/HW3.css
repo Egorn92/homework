@@ -937,3 +937,7 @@
 .social-icon {
 	margin: 0 14px;
 }
+.img {
+	object-fit: cover;
+	object-position: top;
+}
