@@ -1,0 +1,152 @@
+
+.contact-titel-text {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.contact-tatel {
+	margin-top: 104px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 4;
+}
+
+.contact-titel-deskription {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #86878B;	
+}
+
+.contact-form {
+	width: 100%;
+	margin-top: 89px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+
+}
+
+.contact-content {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.content-form-input {
+	max-width: 570px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px 0 0;
+}
+.contact-content-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.contact-button {
+	width: 370px;
+	height: 58px;
+	background: #EC7979;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	display: block;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	border: none;
+}
+
+.content-form-massage {
+	max-width: 570px;
+	width: 100%;
+	padding: 0 0 0 15px;
+
+}
+
+.contact-input {
+	position: relative;
+	margin-bottom: 52px;
+	width: 100%;
+	height: 38px;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	color: #BDBDBD;
+	padding: 0 0 15px 0;
+	outline: none;
+}
+
+.contact-input:hover {
+	background-color: #E5E5E5;
+}
+
+.contact-input:focus {
+	background-color: #E5E5E5;
+}
+
+.contact-input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.contact-massage {
+	resize: none; 
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #BDBDBD;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	color: #BDBDBD;
+	padding: 0 0 179px 0;
+	outline: none;
+}
+
+.contact-massage:hover{
+	background-color: #E5E5E5;
+}
+
+.contact-massage:focus{
+	background-color: #E5E5E5;
+}
+
+.contact-massage:focus::-webkit-input-placeholder {
+	color: transparent;
+}
